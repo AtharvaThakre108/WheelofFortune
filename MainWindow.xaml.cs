@@ -117,6 +117,8 @@ namespace WheelPicker
 
         private void SpinButton_Click(object sender, RoutedEventArgs e)
         {
+
+            
             if (_items.Length == 0)
             {
                 ResultText.Text = "No items loaded";
@@ -127,7 +129,7 @@ namespace WheelPicker
                 return;
 
             _isSpinning = true;
-
+            
             _spinSound.Play();
 
             double extraRotation =

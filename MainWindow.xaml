@@ -2,13 +2,14 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Wheel Picker"
-        Height="700"
+        Height="800"
         Width="700">
 
     <Grid>
 
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
@@ -22,7 +23,7 @@
                     Panel.ZIndex="100"
                     IsHitTestVisible="False">
 
-                <Polygon Points="250,5 265,30 235,30"
+                <Polygon Points="235,5 265,5 250,30"
                         Fill="Red"/>
 
             </Canvas>
@@ -67,11 +68,11 @@
                 Margin="10"
                 Click="SpinButton_Click"/>
 
-        <TextBlock Grid.Row="2"
+        <TextBlock Grid.Row="3"
                 x:Name="ResultText"
                 FontSize="30"
                 FontWeight="Bold"
-                Margin="20"
+                Margin="10"
                 HorizontalAlignment="Center"/>
 
     </Grid>
