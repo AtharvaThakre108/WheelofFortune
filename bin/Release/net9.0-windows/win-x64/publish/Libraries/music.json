@@ -1,0 +1,297 @@
+{
+  "name": "Music",
+  "genres": [
+    {
+      "name": "Rock",
+      "subgenres": [
+        "Classic Rock",
+        "Hard Rock",
+        "Progressive Rock",
+        "Alternative Rock",
+        "Punk Rock",
+        "Grunge",
+        "Indie Rock",
+        "Soft Rock",
+        "Southern Rock",
+        "Psychedelic Rock",
+        "Glam Rock",
+        "Post-Rock",
+        "Math Rock",
+        "Garage Rock",
+        "Surf Rock",
+        "Stoner Rock",
+        "Nu Metal"
+      ]
+    },
+    {
+      "name": "Metal",
+      "subgenres": [
+        "Heavy Metal",
+        "Power Metal",
+        "Thrash Metal",
+        "Death Metal",
+        "Black Metal",
+        "Doom Metal",
+        "Symphonic Metal",
+        "Metalcore",
+        "Progressive Metal",
+        "Deathcore",
+        "Blackgaze",
+        "Folk Metal",
+        "Groove Metal",
+        "Industrial Metal",
+        "Nu Metal",
+        "Djent",
+        "Sludge Metal",
+        "Speed Metal"
+      ]
+    },
+    {
+      "name": "Electronic",
+      "subgenres": [
+        "Synthwave",
+        "Retrowave",
+        "House",
+        "Deep House",
+        "Techno",
+        "Trance",
+        "Drum and Bass",
+        "Dubstep",
+        "Ambient",
+        "Lo-Fi",
+        "Techno",
+        "Electro",
+        "IDM",
+        "Breakbeat",
+        "Jungle",
+        "Garage",
+        "Future Bass",
+        "Trapstep",
+        "Chillwave",
+        "Vaporwave",
+        "Hardstyle",
+        "Big Room House",
+        "Progressive House"
+      ]
+    },
+    {
+      "name": "Jazz",
+      "subgenres": [
+        "Swing",
+        "Bebop",
+        "Fusion",
+        "Cool Jazz",
+        "Smooth Jazz",
+        "Hard Bop",
+        "Modal Jazz",
+        "Free Jazz",
+        "Latin Jazz",
+        "Acid Jazz",
+        "Contemporary Jazz",
+        "Nu Jazz"
+      ]
+    },
+    {
+      "name": "Blues",
+      "subgenres": [
+        "Delta Blues",
+        "Chicago Blues",
+        "Electric Blues",
+        "Blues Rock",
+        "Texas Blues",
+        "Country Blues",
+        "Jump Blues",
+        "Modern Blues",
+        "Soul Blues"
+      ]
+    },
+    {
+      "name": "Classical",
+      "subgenres": [
+        "Baroque",
+        "Classical Period",
+        "Romantic",
+        "Modern Classical",
+        "Opera",
+        "Medieval",
+        "Renaissance",
+        "Impressionist",
+        "Minimalist",
+        "Contemporary Classical",
+        "Choral",
+        "Chamber Music"
+      ]
+    },
+    {
+      "name": "Hip Hop",
+      "subgenres": [
+        "Boom Bap",
+        "Trap",
+        "Conscious Hip Hop",
+        "Lo-Fi Hip Hop",
+        "Gangsta Rap",
+        "Cloud Rap",
+        "Drill",
+        "Mumble Rap",
+        "Alternative Hip Hop",
+        "West Coast Hip Hop",
+        "East Coast Hip Hop",
+        "Southern Hip Hop",
+        "Grime",
+        "UK Drill",
+        "Jazz Rap"
+      ]
+    },
+    {
+      "name": "Pop",
+      "subgenres": [
+        "Synthpop",
+        "Dance Pop",
+        "Indie Pop",
+        "Electropop",
+        "K-Pop",
+        "J-Pop",
+        "Bubblegum Pop",
+        "Teen Pop",
+        "Art Pop",
+        "Chamber Pop",
+        "Dream Pop",
+        "Hyperpop",
+        "City Pop"
+      ]
+    },
+    {
+      "name": "R&B",
+      "subgenres": [
+        "Contemporary R&B",
+        "Neo Soul",
+        "Soul",
+        "Funk",
+        "Motown",
+        "Quiet Storm",
+        "Alternative R&B",
+        "Funk Soul",
+        "Disco"
+      ]
+    },
+    {
+      "name": "Country",
+      "subgenres": [
+        "Classic Country",
+        "Country Rock",
+        "Bluegrass",
+        "Americana",
+        "Outlaw Country",
+        "Bro-Country",
+        "Country Pop",
+        "Alt-Country",
+        "Western Swing",
+        "Neotraditional Country"
+      ]
+    },
+    {
+      "name": "Folk",
+      "subgenres": [
+        "Traditional Folk",
+        "Indie Folk",
+        "Contemporary Folk",
+        "Celtic Folk",
+        "Appalachian Folk",
+        "Folk Rock",
+        "Psych Folk",
+        "Neofolk"
+      ]
+    },
+    {
+      "name": "Reggae",
+      "subgenres": [
+        "Roots Reggae",
+        "Dub",
+        "Dancehall",
+        "Ska",
+        "Rocksteady",
+        "Lovers Rock",
+        "Ragga"
+      ]
+    },
+    {
+      "name": "Soundtracks",
+      "subgenres": [
+        "Movie OST",
+        "Game OST",
+        "Anime OST",
+        "Instrumental",
+        "TV Series OST",
+        "Broadway Musical",
+        "Epic Orchestral"
+      ]
+    },
+    {
+      "name": "Latin",
+      "subgenres": [
+        "Salsa",
+        "Bachata",
+        "Reggaeton",
+        "Merengue",
+        "Cumbia",
+        "Latin Pop",
+        "Tango",
+        "Bossa Nova",
+        "Samba",
+        "Latin Jazz",
+        "Dembow"
+      ]
+    },
+    {
+      "name": "World Music",
+      "subgenres": [
+        "Afrobeat",
+        "Highlife",
+        "Qawwali",
+        "Flamenco",
+        "Indian Classical",
+        "Carnatic",
+        "Hindustani",
+        "Klezmer",
+        "Celtic",
+        "African Traditional",
+        "Middle Eastern",
+        "Zouk",
+        "Soca"
+      ]
+    },
+    {
+      "name": "Gospel & Christian",
+      "subgenres": [
+        "Gospel",
+        "Contemporary Christian",
+        "Christian Rock",
+        "Christian Hip Hop",
+        "Southern Gospel",
+        "Praise & Worship"
+      ]
+    },
+    {
+      "name": "Disco & Funk",
+      "subgenres": [
+        "Disco",
+        "Funk",
+        "P-Funk",
+        "Electro Funk",
+        "Nu-Disco"
+      ]
+    },
+    {
+      "name": "Experimental & Avant-Garde",
+      "subgenres": [
+        "Noise",
+        "Industrial",
+        "Drone",
+        "Glitch",
+        "Avant-Garde",
+        "Musique Concrète",
+        "Post-Punk"
+      ]
+    }
+  ]
+}
