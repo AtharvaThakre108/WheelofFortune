@@ -1,0 +1,58 @@
+# Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Publish output
+publish/
+
+# NuGet packages
+packages/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Generated icons cache
+IconCache.db
+
+# OS files
+.DS_Store
+
+# Test results
+TestResults/
+
+# Coverage
+coverage/
+*.coverage
+
+# Single-file publish output
+*.pdb
+
+# Local settings
+appsettings.Development.json
+
+# JetBrains
+_ReSharper*/
+*.DotSettings.user
