@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.IO;
 using System.Media;
 using System.Windows;
@@ -9,6 +10,32 @@ namespace WheelPicker
 {
     public partial class MainWindow : Window
     {
+        
+        private MusicLibrary? _musicLibrary;
+
+        private MusicGenre? _currentGenre;
+
+        private bool _isSubgenreMode = false;
+
+        private void LoadMusicHierarchy(string path)
+        {
+            _musicLibrary =
+                MusicLibraryLoader.Load(path);
+
+            _isSubgenreMode = false;
+
+            _currentGenre = null;
+
+            _items =
+                _musicLibrary.Genres
+                    .Select(g => g.Name)
+                    .ToArray();
+
+            WheelDrawer.DrawWheel(
+                WheelCanvas,
+                _items,
+                250);
+        }
         private readonly SoundPlayer _spinSound = new(@"Assets\spin.wav");
 
         private readonly Random _random = new();
@@ -48,13 +75,16 @@ namespace WheelPicker
 
             foreach (string file in Directory.GetFiles(folder, "*.json"))
             {
-                var library =
-                    LibraryLoader.Load(file);
+                string name =
+                    Path.GetFileNameWithoutExtension(file);
 
                 LibraryComboBox.Items.Add(
                     new LibraryInfo
                     {
-                        Name = library.Name,
+                        Name = name.Equals("music",
+                            StringComparison.OrdinalIgnoreCase)
+                            ? "Music"
+                            : name,
                         Path = file
                     });
             }
@@ -71,7 +101,14 @@ namespace WheelPicker
                 is not LibraryInfo selected)
                 return;
 
-            LoadLibrary(selected.Path);
+                if (selected.Name == "Music")
+                {
+                    LoadMusicHierarchy(selected.Path);
+                }
+                else
+                {
+                    LoadLibrary(selected.Path);
+                }
         }
 
         private void LoadMusic_Click(
@@ -161,7 +198,50 @@ namespace WheelPicker
                 string winner =
                     GetWinnerFromAngle(finalAngle);
 
-                ResultText.Text = winner;
+                if (_musicLibrary != null &&
+                    !_isSubgenreMode)
+                {
+                    _currentGenre =
+                        _musicLibrary.Genres
+                            .First(g => g.Name == winner);
+
+                    _items =
+                        _currentGenre.Subgenres.ToArray();
+
+                    WheelDrawer.DrawWheel(
+                        WheelCanvas,
+                        _items,
+                        250);
+
+                    ResultText.Text =
+                        $"Selected Genre: {winner}\nSpin again for subgenre";
+
+                    _isSubgenreMode = true;
+                }
+                else if (_musicLibrary != null &&
+                        _isSubgenreMode)
+                {
+                    ResultText.Text =
+                        $"{_currentGenre?.Name} > {winner}";
+
+                    _items =
+                        _musicLibrary.Genres
+                            .Select(g => g.Name)
+                            .ToArray();
+
+                    WheelDrawer.DrawWheel(
+                        WheelCanvas,
+                        _items,
+                        250);
+
+                    _currentGenre = null;
+
+                    _isSubgenreMode = false;
+                }
+                else
+                {
+                    ResultText.Text = winner;
+                }
 
                 _currentRotation = finalAngle;
 
@@ -171,6 +251,30 @@ namespace WheelPicker
             WheelRotation.BeginAnimation(
                 RotateTransform.AngleProperty,
                 animation);
+                
+        }
+
+        private void BackButton_Click(
+            object sender,
+            RoutedEventArgs e)
+        {
+            if (_musicLibrary == null)
+                return;
+
+            _items =
+                _musicLibrary.Genres
+                    .Select(g => g.Name)
+                    .ToArray();
+
+            WheelDrawer.DrawWheel(
+                WheelCanvas,
+                _items,
+                250);
+
+            _currentGenre = null;
+            _isSubgenreMode = false;
+
+            ResultText.Text = "";
         }
     }
 }

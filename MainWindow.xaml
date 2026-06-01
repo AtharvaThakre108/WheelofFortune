@@ -61,12 +61,24 @@
 
         </StackPanel>
 
-        <Button Grid.Row="2"
-                Content="SPIN"
-                Width="220"
-                Height="60"
-                Margin="10"
-                Click="SpinButton_Click"/>
+        <StackPanel Grid.Row="2"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center"
+                    Margin="10">
+
+            <Button Content="BACK"
+                    Width="120"
+                    Height="40"
+                    Margin="10"
+                    Click="BackButton_Click"/>
+
+            <Button Content="SPIN"
+                    Width="220"
+                    Height="60"
+                    Margin="10"
+                    Click="SpinButton_Click"/>
+
+        </StackPanel>
 
         <TextBlock Grid.Row="3"
                 x:Name="ResultText"

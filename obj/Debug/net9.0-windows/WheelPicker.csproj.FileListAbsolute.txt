@@ -1,3 +1,4 @@
+C:\Users\thein\OneDrive\Desktop\Loc_Proj\WheelPicker\bin\Debug\net9.0-windows\Assets\spin.wav
 C:\Users\thein\OneDrive\Desktop\Loc_Proj\WheelPicker\bin\Debug\net9.0-windows\Libraries\games.json
 C:\Users\thein\OneDrive\Desktop\Loc_Proj\WheelPicker\bin\Debug\net9.0-windows\Libraries\music.json
 C:\Users\thein\OneDrive\Desktop\Loc_Proj\WheelPicker\bin\Debug\net9.0-windows\Libraries\tasks.json
@@ -21,4 +22,3 @@ C:\Users\thein\OneDrive\Desktop\Loc_Proj\WheelPicker\obj\Debug\net9.0-windows\re
 C:\Users\thein\OneDrive\Desktop\Loc_Proj\WheelPicker\obj\Debug\net9.0-windows\WheelPicker.pdb
 C:\Users\thein\OneDrive\Desktop\Loc_Proj\WheelPicker\obj\Debug\net9.0-windows\WheelPicker.genruntimeconfig.cache
 C:\Users\thein\OneDrive\Desktop\Loc_Proj\WheelPicker\obj\Debug\net9.0-windows\ref\WheelPicker.dll
-C:\Users\thein\OneDrive\Desktop\Loc_Proj\WheelPicker\bin\Debug\net9.0-windows\Assets\spin.wav

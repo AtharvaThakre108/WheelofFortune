@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WheelPicker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+878d27100c1f8a2db7a25411708df874a0b7fb7d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e37b7e9c0a15273751fa1527f7dfd058aca0c3b6")]
 [assembly: System.Reflection.AssemblyProductAttribute("WheelPicker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WheelPicker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
