@@ -74,6 +74,20 @@ namespace WheelPicker
                     textRadius * Math.Sin(radians) - 10);
 
                 canvas.Children.Add(label);
+
+                Ellipse hub = new()
+                {
+                    Width = 60,
+                    Height = 60,
+                    Fill = Brushes.White,
+                    Stroke = Brushes.Black,
+                    StrokeThickness = 3
+                };
+
+                Canvas.SetLeft(hub, 220);
+                Canvas.SetTop(hub, 220);
+
+                canvas.Children.Add(hub);
             }
         }
 

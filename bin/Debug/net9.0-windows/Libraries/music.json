@@ -1,0 +1,13 @@
+{
+  "name": "Music Genres",
+  "items": [
+    "Rock",
+    "Jazz",
+    "Metal",
+    "Synthwave",
+    "Blues",
+    "Classical",
+    "Funk",
+    "Ambient"
+  ]
+}

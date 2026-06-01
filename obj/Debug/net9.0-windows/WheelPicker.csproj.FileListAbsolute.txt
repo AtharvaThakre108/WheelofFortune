@@ -1,3 +1,6 @@
+C:\Users\thein\OneDrive\Desktop\Loc_Proj\WheelPicker\bin\Debug\net9.0-windows\Libraries\games.json
+C:\Users\thein\OneDrive\Desktop\Loc_Proj\WheelPicker\bin\Debug\net9.0-windows\Libraries\music.json
+C:\Users\thein\OneDrive\Desktop\Loc_Proj\WheelPicker\bin\Debug\net9.0-windows\Libraries\tasks.json
 C:\Users\thein\OneDrive\Desktop\Loc_Proj\WheelPicker\bin\Debug\net9.0-windows\WheelPicker.exe
 C:\Users\thein\OneDrive\Desktop\Loc_Proj\WheelPicker\bin\Debug\net9.0-windows\WheelPicker.deps.json
 C:\Users\thein\OneDrive\Desktop\Loc_Proj\WheelPicker\bin\Debug\net9.0-windows\WheelPicker.runtimeconfig.json
@@ -12,6 +15,7 @@ C:\Users\thein\OneDrive\Desktop\Loc_Proj\WheelPicker\obj\Debug\net9.0-windows\Wh
 C:\Users\thein\OneDrive\Desktop\Loc_Proj\WheelPicker\obj\Debug\net9.0-windows\WheelPicker.AssemblyInfoInputs.cache
 C:\Users\thein\OneDrive\Desktop\Loc_Proj\WheelPicker\obj\Debug\net9.0-windows\WheelPicker.AssemblyInfo.cs
 C:\Users\thein\OneDrive\Desktop\Loc_Proj\WheelPicker\obj\Debug\net9.0-windows\WheelPicker.csproj.CoreCompileInputs.cache
+C:\Users\thein\OneDrive\Desktop\Loc_Proj\WheelPicker\obj\Debug\net9.0-windows\WheelPicker.sourcelink.json
 C:\Users\thein\OneDrive\Desktop\Loc_Proj\WheelPicker\obj\Debug\net9.0-windows\WheelPicker.dll
 C:\Users\thein\OneDrive\Desktop\Loc_Proj\WheelPicker\obj\Debug\net9.0-windows\refint\WheelPicker.dll
 C:\Users\thein\OneDrive\Desktop\Loc_Proj\WheelPicker\obj\Debug\net9.0-windows\WheelPicker.pdb
